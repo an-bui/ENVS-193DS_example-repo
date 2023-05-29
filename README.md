@@ -11,13 +11,31 @@ This is the repository associated with the analysis project titled "Penguins at 
 
 This repository is organized as follows:
 
-```         
+```
 .
-├── code                             # all analysis files
-├── data                             # all data files
-├── .gitignore                       # files that git does not track
-├── ENVS-193DS_example-repo.Rproj    # repository .Rproject
-└── README.md                        # information
+├── ENVS-193DS_example-repo.Rproj
+├── README.md
+├── code                                          # all analysis files
+│   └── final_project.qmd
+└── data                                          # all data files, including accession information
+    ├── knb-lter-pal.219.5                              # Adelie
+    │   ├── knb-lter-pal.219.5.report.xml
+    │   ├── knb-lter-pal.219.5.txt
+    │   ├── knb-lter-pal.219.5.xml
+    │   ├── manifest.txt
+    │   └── table_219.csv
+    ├── knb-lter-pal.220.7                              # Chinstrap
+    │   ├── knb-lter-pal.220.7.report.xml
+    │   ├── knb-lter-pal.220.7.txt
+    │   ├── knb-lter-pal.220.7.xml
+    │   ├── manifest.txt
+    │   └── table_220.csv
+    └── knb-lter-pal.221.8                              # Gentoo
+        ├── knb-lter-pal.221.8.report.xml
+        ├── knb-lter-pal.221.8.txt
+        ├── knb-lter-pal.221.8.xml
+        ├── manifest.txt
+        └── table_221.csv
 ```
 
 The final rendered report is [here]().
@@ -32,7 +50,15 @@ Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarct
 
 The data were originally published in:
 
-Gorman KB, Williams TD, Fraser WR (2014). Ecological sexual dimorphism and environmental variability within a community of Antarctic penguins (genus Pygoscelis). PLoS ONE 9(3):e90081. <https://doi.org/10.1371/journal.pone.0090081>.
+Gorman KB, Williams TD, Fraser WR (2014). Ecological sexual dimorphism and environmental variability within a community of Antarctic penguins (genus Pygoscelis). PLoS ONE 9(3):e90081. <https://doi.org/10.1371/journal.pone.0090081>.  
+
+We downloaded the raw data from the Environmental Data Initiative portal.  
+
+Palmer Station Antarctica LTER and K. Gorman. 2020. Structural size measurements and isotopic signatures of foraging among adult male and female Adélie penguins (Pygoscelis adeliae) nesting along the Palmer Archipelago near Palmer Station, 2007-2009 ver 5. Environmental Data Initiative. https://doi.org/10.6073/pasta/98b16d7d563f265cb52372c8ca99e60f (Accessed 2023-05-29).  
+
+Palmer Station Antarctica LTER and K. Gorman. 2020. Structural size measurements and isotopic signatures of foraging among adult male and female gentoo penguins (Pygoscelis papua) nesting along the Palmer Archipelago near Palmer Station, 2007-2009 ver 7. Environmental Data Initiative. https://doi.org/10.6073/pasta/9fc8f9b5a2fa28bdca96516649b6599b (Accessed 2023-05-29).  
+
+Palmer Station Antarctica LTER and K. Gorman. 2020. Structural size measurements and isotopic signatures of foraging among adult male and female Chinstrap penguins (Pygoscelis antarcticus) nesting along the Palmer Archipelago near Palmer Station, 2007-2009 ver 8. Environmental Data Initiative. https://doi.org/10.6073/pasta/ce9b4713bb8c065a8fcfd7f50bf30dde (Accessed 2023-05-29).
 
 ## Methodologial information
 

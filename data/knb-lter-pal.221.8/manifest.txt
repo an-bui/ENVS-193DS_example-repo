@@ -1,0 +1,5 @@
+Manifest file for knb-lter-pal.221.8.zip created on Mon May 29 20:04:38 UTC 2023
+table_221.csv (11263 bytes)
+knb-lter-pal.221.8.xml (23993 bytes)
+knb-lter-pal.221.8.txt (11975 bytes)
+knb-lter-pal.221.8.report.xml (30415 bytes)
