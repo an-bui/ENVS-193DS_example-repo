@@ -2,16 +2,16 @@
 
 ## Introduction
 
-This is the repository associated with the analysis project titled "Penguins at Palmer Station, Antarctica". In this analysis, we asked:  
-1) how male and female Adelie penguins differ in flipper length,  
-2) how penguin bill length predicts bill width, and  
+This is the repository associated with the analysis project titled "Penguins at Palmer Station, Antarctica". In this analysis, we asked:\
+1) how male and female Adelie penguins differ in flipper length,\
+2) how penguin bill length predicts bill width, and\
 3) what set of variables best predict penguin body mass.
 
 ## Data and file overview
 
 This repository is organized as follows:
 
-```
+```         
 .
 ├── code                             # all analysis files
 ├── data                             # all data files
@@ -42,14 +42,13 @@ We explored and wrangled the data using `{tidyverse}`. We summarized test result
 
 The data are as follows:
 
-|Variable|Type|Description|
-|`species`|categorical|Adelie, Chinstrap, Gentoo  |
-|`island`|categorical|Torgersen, Dream, Biscoe|
-|`bill_length_mm`|numerical|penguin bill length measured in mm|
-|`bill_depth_mm`|numerical|penguin bill depth measured in mm|
-|`flipper_length_mm`|numerical|penguin flipper length measured in mm|
-|`body_mass_g`|numerical|penguin body mass measured in g |
-|`sex`|categorical|male, female|
-|`year`|categorical|2007, 2008, 2009  |
-
-
+|     Variable             |   Type          |   Description                           |
+|--------------------------|-----------------|-----------------------------------------|
+|    `species`             |   categorical   |   Adelie, Chinstrap, Gentoo             |
+|    `island`              |   categorical   |   Torgersen, Dream, Biscoe              |
+|    `bill_length_mm`      |   numerical     |   penguin bill length measured in mm    |
+|    `bill_depth_mm`       |   numerical     |   penguin bill depth measured in mm     |
+|    `flipper_length_mm`   |   numerical     |   penguin flipper length measured in mm |
+|    `body_mass_g`         |   numerical     |   penguin body mass measured in g       |
+|    `sex`                 |   categorical   |   male, female                          |
+|    `year`                |   categorical   |   2007, 2008, 2009                      |
