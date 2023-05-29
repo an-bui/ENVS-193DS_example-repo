@@ -20,6 +20,8 @@ This repository is organized as follows:
 └── README.md                        # information
 ```
 
+The final rendered report is [here]().
+
 ## Sharing and accessing information
 
 This repository and the associated analysis are examples of expectations for the ENVS 193DS final.
@@ -34,6 +36,20 @@ Gorman KB, Williams TD, Fraser WR (2014). Ecological sexual dimorphism and envir
 
 ## Methodologial information
 
-We explored and
+We explored and wrangled the data using `{tidyverse}`. We summarized test results in tabular form using the `{flextable}` package.
 
 ## Data-specific information
+
+The data are as follows:
+
+|Variable|Type|Description|
+|`species`|categorical|Adelie, Chinstrap, Gentoo  |
+|`island`|categorical|Torgersen, Dream, Biscoe|
+|`bill_length_mm`|numerical|penguin bill length measured in mm|
+|`bill_depth_mm`|numerical|penguin bill depth measured in mm|
+|`flipper_length_mm`|numerical|penguin flipper length measured in mm|
+|`body_mass_g`|numerical|penguin body mass measured in g |
+|`sex`|categorical|male, female|
+|`year`|categorical|2007, 2008, 2009  |
+
+
