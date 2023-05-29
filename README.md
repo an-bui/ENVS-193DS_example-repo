@@ -2,9 +2,9 @@
 
 ## Introduction
 
-This is the repository associated with the analysis project titled "Penguins at Palmer Station, Antarctica". In this analysis, we asked:\
-1) how male and female Adelie penguins differ in flipper length,\
-2) how penguin bill length predicts bill width, and\
+This is the repository associated with the analysis project titled "Penguins at Palmer Station, Antarctica". In this analysis, we asked:  
+1) how male and female Adelie penguins differ in flipper length,  
+2) how penguin bill length predicts bill width, and  
 3) what set of variables best predict penguin body mass.
 
 ## Data and file overview
